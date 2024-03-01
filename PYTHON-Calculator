@@ -1,0 +1,13 @@
+a=int(input("A="))
+b=int(input("B="))
+operation=input("Calculate any numbers by these +,-,*,/ : ")
+if(operation=="+"):
+    print(a+b)
+elif(operation=="-"):
+    print(a-b)
+elif(operation=="*"):
+    print(a*b)
+elif(operation=="/"):
+    print(a/b)
+else:
+    print("Invalid Operation")
